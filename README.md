@@ -32,6 +32,19 @@ A clean, minimalist portfolio template featuring:
 
 **[View Simple Portfolio Demo](https://www.devportfoliotemplates.com/portfolios/simple-portfolio)**
 
+### 3. Frontend Portfolio
+
+A modern, glassmorphic portfolio template featuring:
+
+- Gradient and grid background with parallax effect
+- Interactive project cards with hover animations
+- Animated skill progress bars
+- Glassmorphic contact section
+- Dark theme with blue/purple accents
+- Optimized for performance and aesthetics
+
+**[View Frontend Portfolio Demo](https://www.devportfoliotemplates.com/portfolios/frontend-portfolio)**
+
 ## Tech Stack
 
 - Next.js
