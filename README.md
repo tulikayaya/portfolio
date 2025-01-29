@@ -45,7 +45,7 @@ A clean, minimalist portfolio template featuring:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/devportfoliotemplates.git
+git clone https://github.com/devportfoliotemplates/devportfoliotemplates.git
 ```
 
 2. Navigate to your preferred template:
