@@ -13,23 +13,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: 'John Doe | Full Stack Developer',
+	title: 'Frontend Developer Portfolio',
 	description:
-		'Full Stack Developer specializing in React, Node.js, and modern web technologies. Building exceptional digital experiences with a focus on performance and accessibility.',
-	keywords: ['Full Stack Developer', 'JavaScript', 'TypeScript', 'React', 'Node.js', 'Web Development'],
-	authors: [{ name: 'John Doe' }],
-	creator: 'John Doe',
+		'Professional portfolio showcasing frontend development expertise, projects, and technical skills. Built with modern web technologies focusing on performance and user experience.',
+	keywords: ['Frontend Developer', 'Web Developer', 'React', 'Next.js', 'TypeScript', 'Portfolio'],
+	authors: [{ name: 'Your Name' }],
+	creator: 'Your Name',
 	openGraph: {
-		title: 'John Doe | Full Stack Developer',
-		description: 'Full Stack Developer specializing in React, Node.js, and modern web technologies.',
-		url: 'https://johndoe.dev',
-		siteName: 'John Doe Portfolio',
+		title: 'Frontend Developer Portfolio',
+		description: 'Professional portfolio showcasing frontend development expertise and projects.',
+		url: 'https://your-domain.com',
+		siteName: 'Frontend Portfolio',
 		images: [
 			{
 				url: '/og-image.jpg',
 				width: 1200,
 				height: 630,
-				alt: 'John Doe - Full Stack Developer',
+				alt: 'Frontend Developer Portfolio',
 			},
 		],
 		locale: 'en_US',
@@ -37,9 +37,9 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'John Doe | Full Stack Developer',
-		description: 'Full Stack Developer specializing in React, Node.js, and modern web technologies.',
-		creator: '@johndoe',
+		title: 'Frontend Developer Portfolio',
+		description: 'Professional portfolio showcasing frontend development expertise and projects.',
+		creator: '@yourusername',
 		images: ['/og-image.jpg'],
 	},
 	robots: {
