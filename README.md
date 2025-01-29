@@ -6,44 +6,41 @@ A collection of modern, responsive portfolio templates built with Next.js and Ta
 
 ## Available Templates
 
-### 1. Creative Portfolio
+### Frontend Portfolio
 
-A dynamic, animated portfolio template featuring:
-
-- Stunning hero section with animated text
-- Project showcase with hover effects
-- Skills section with animated cards
-- Contact section
-- Built with Framer Motion for smooth animations
-- Dark theme with gradient accents
-
-**[View Creative Portfolio Demo](https://www.devportfoliotemplates.com/portfolios/creative-portfolio)**
-
-### 2. Simple Portfolio
-
-A clean, minimalist portfolio template featuring:
-
-- Professional hero section
-- Skills grid
-- Project showcase
-- Contact section
-- Light theme with subtle shadows
-- Optimized for readability
-
-**[View Simple Portfolio Demo](https://www.devportfoliotemplates.com/portfolios/simple-portfolio)**
-
-### 3. Frontend Portfolio
-
-A modern, glassmorphic portfolio template featuring:
-
-- Gradient and grid background with parallax effect
-- Interactive project cards with hover animations
-- Animated skill progress bars
-- Glassmorphic contact section
+- Modern glassmorphic design with parallax effects
+- Interactive project cards and skill progress bars
 - Dark theme with blue/purple accents
 - Optimized for performance and aesthetics
 
 **[View Frontend Portfolio Demo](https://www.devportfoliotemplates.com/portfolios/frontend-portfolio)**
+
+### Backend Portfolio
+
+- Technical-focused design with architecture diagrams
+- API documentation and code snippet showcase
+- System architecture visualizations
+- Performance metrics and database schema displays
+
+**[View Backend Portfolio Demo](https://www.devportfoliotemplates.com/portfolios/backend-portfolio)**
+
+### Creative Portfolio
+
+- Dynamic, animated portfolio with stunning hero section
+- Project showcase with hover effects
+- Skills section with animated cards
+- Dark theme with gradient accents
+
+**[View Creative Portfolio Demo](https://www.devportfoliotemplates.com/portfolios/creative-portfolio)**
+
+### Simple Portfolio
+
+- Clean, minimalist design optimized for readability
+- Professional hero section and skills grid
+- Project showcase with subtle shadows
+- Light theme with elegant simplicity
+
+**[View Simple Portfolio Demo](https://www.devportfoliotemplates.com/portfolios/simple-portfolio)**
 
 ## Tech Stack
 
@@ -51,7 +48,6 @@ A modern, glassmorphic portfolio template featuring:
 - React
 - TypeScript
 - TailwindCSS
-- Framer Motion (Creative template)
 
 ## Getting Started
 
@@ -64,9 +60,14 @@ git clone https://github.com/devportfoliotemplates/devportfoliotemplates.git
 2. Navigate to your preferred template:
 
 ```bash
+cd frontend-portfolio
+# or
+cd backend-portfolio
+# or
 cd creative-portfolio
 # or
 cd simple-portfolio
+
 ```
 
 3. Install dependencies:
@@ -91,16 +92,14 @@ yarn dev
 
 ### Personal Information
 
-- Update the name, title, and description in `app/page.tsx`
-- Replace profile images in the `public` directory
-- Modify the projects array to showcase your work
-- Update skills list to match your expertise
+- Update metadata and content in `app/layout.tsx` and `app/page.tsx`
+- Replace images and assets in the `public` directory
 
 ### Styling
 
 - Templates use TailwindCSS for styling
-- Modify colors, spacing, and other design elements in the TailwindCSS config
-- Customize animations (Creative template) in the Framer Motion components
+- Customize colors and theme in `tailwind.config.js`
+- Modify animations in respective component files
 
 ## Contributing
 
