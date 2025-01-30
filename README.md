@@ -4,55 +4,6 @@ A collection of modern, responsive portfolio templates built with Next.js and Ta
 
 🌐 **[View All Templates](https://www.devportfoliotemplates.com)**
 
-## Available Templates
-
-### Frontend Portfolio
-
-- Modern glassmorphic design with parallax effects
-- Interactive project cards and skill progress bars
-- Dark theme with blue/purple accents
-- Optimized for performance and aesthetics
-
-**[View Frontend Portfolio Demo](https://www.devportfoliotemplates.com/portfolios/frontend-portfolio)**
-
-### Backend Portfolio
-
-- Technical-focused design with architecture diagrams
-- API documentation and code snippet showcase
-- System architecture visualizations
-- Performance metrics and database schema displays
-
-**[View Backend Portfolio Demo](https://www.devportfoliotemplates.com/portfolios/backend-portfolio)**
-
-### Full-Stack Portfolio
-
-- Comprehensive showcase of frontend and backend capabilities
-- Interactive system architecture visualizations
-- Live component demos and API integration examples
-- Performance optimization and security implementation showcases
-- Database and API architecture visualization
-- Modern, responsive UI with seamless user experience
-
-**[View Full-Stack Portfolio Demo](https://www.devportfoliotemplates.com/portfolios/fullstack-portfolio)**
-
-### Modern Minimal Portfolio
-
-- Dynamic, animated portfolio with stunning hero section
-- Project showcase with hover effects
-- Skills section with animated cards
-- Dark theme with gradient accents
-
-**[View Modern Minimal Portfolio Demo](https://www.devportfoliotemplates.com/portfolios/modern-minimal-portfolio)**
-
-### Simple Portfolio
-
-- Clean, minimalist design optimized for readability
-- Professional hero section and skills grid
-- Project showcase with subtle shadows
-- Light theme with elegant simplicity
-
-**[View Simple Portfolio Demo](https://www.devportfoliotemplates.com/portfolios/simple-portfolio)**
-
 ## Tech Stack
 
 - Next.js
