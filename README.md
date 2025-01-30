@@ -24,6 +24,17 @@ A collection of modern, responsive portfolio templates built with Next.js and Ta
 
 **[View Backend Portfolio Demo](https://www.devportfoliotemplates.com/portfolios/backend-portfolio)**
 
+### Full-Stack Portfolio
+
+- Comprehensive showcase of frontend and backend capabilities
+- Interactive system architecture visualizations
+- Live component demos and API integration examples
+- Performance optimization and security implementation showcases
+- Database and API architecture visualization
+- Modern, responsive UI with seamless user experience
+
+**[View Full-Stack Portfolio Demo](https://www.devportfoliotemplates.com/portfolios/fullstack-portfolio)**
+
 ### Modern Minimal Portfolio
 
 - Dynamic, animated portfolio with stunning hero section
