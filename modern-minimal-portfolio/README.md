@@ -1,8 +1,8 @@
-# Creative Portfolio
+# Modern Minimal Portfolio
 
 A modern, responsive developer portfolio template built with Next.js 15, TypeScript, and Tailwind CSS. This template provides a clean and professional way to showcase your work and skills as a developer.
 
-[Demo](https://www.devportfoliotemplates.com/portfolios/creative-portfolio)
+[Demo](https://www.devportfoliotemplates.com/portfolios/modern-minimal-portfolio)
 
 ## Features
 

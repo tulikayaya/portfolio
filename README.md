@@ -24,14 +24,14 @@ A collection of modern, responsive portfolio templates built with Next.js and Ta
 
 **[View Backend Portfolio Demo](https://www.devportfoliotemplates.com/portfolios/backend-portfolio)**
 
-### Creative Portfolio
+### Modern Minimal Portfolio
 
 - Dynamic, animated portfolio with stunning hero section
 - Project showcase with hover effects
 - Skills section with animated cards
 - Dark theme with gradient accents
 
-**[View Creative Portfolio Demo](https://www.devportfoliotemplates.com/portfolios/creative-portfolio)**
+**[View Modern Minimal Portfolio Demo](https://www.devportfoliotemplates.com/portfolios/modern-minimal-portfolio)**
 
 ### Simple Portfolio
 
@@ -64,7 +64,7 @@ cd frontend-portfolio
 # or
 cd backend-portfolio
 # or
-cd creative-portfolio
+cd modern-minimal-portfolio
 # or
 cd simple-portfolio
 

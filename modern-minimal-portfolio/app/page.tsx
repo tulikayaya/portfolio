@@ -31,7 +31,7 @@ const projects = [
 	},
 ];
 
-export default function CreativePortfolio() {
+export default function ModernMinimalPortfolio() {
 	return (
 		<div className="min-h-screen bg-black text-white">
 			{/* Hero Section with Animated Text */}
