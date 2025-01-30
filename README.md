@@ -51,26 +51,35 @@ A collection of modern, responsive portfolio templates built with Next.js and Ta
 
 ## Getting Started
 
-1. Clone the repository:
+You have two options to get started with your preferred template:
+
+### Option 1: Using Git Sparse Checkout
+
+If you want to clone only a specific portfolio template:
 
 ```bash
-git clone https://github.com/devportfoliotemplates/devportfoliotemplates.git
+git clone --no-checkout https://github.com/devportfoliotemplates/devportfoliotemplates.git
+cd devportfoliotemplates
+git sparse-checkout init --cone
+git sparse-checkout set example-portfolio
+git checkout
 ```
 
-2. Navigate to your preferred template:
+Replace `example-portfolio` with your preferred template name (`frontend-portfolio`, `backend-portfolio`, etc.).
 
-```bash
-cd frontend-portfolio
-# or
-cd backend-portfolio
-# or
-cd modern-minimal-portfolio
-# or
-cd simple-portfolio
+### Option 2: Direct Download
 
-```
+You can download a specific portfolio template as a ZIP file:
 
-3. Install dependencies:
+1. Visit [download-directory.github.io](https://download-directory.github.io/)
+2. Paste the URL of your preferred portfolio folder (e.g., `https://github.com/devportfoliotemplates/devportfoliotemplates/tree/main/frontend-portfolio`)
+3. Download and extract the ZIP file
+
+### Running the Template
+
+Once you have your preferred template:
+
+1. Install dependencies:
 
 ```bash
 npm install
@@ -78,7 +87,7 @@ npm install
 yarn install
 ```
 
-4. Run the development server:
+2. Run the development server:
 
 ```bash
 npm run dev
@@ -86,7 +95,7 @@ npm run dev
 yarn dev
 ```
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+3. Open [http://localhost:3000](http://localhost:3000) in your browser to see the portfolio.
 
 ## Customization
 
