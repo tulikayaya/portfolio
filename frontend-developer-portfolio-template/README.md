@@ -2,7 +2,7 @@
 
 A modern, glassmorphic developer portfolio template built with Next.js 15, TypeScript, and Tailwind CSS. This template provides an elegant and interactive way to showcase your work with beautiful animations and modern design elements.
 
-[Demo](https://www.devportfoliotemplates.com/portfolio-templates/frontend)
+[Demo](https://www.devportfoliotemplates.com/portfolio-templates/frontend-developer)
 
 ## Features
 
