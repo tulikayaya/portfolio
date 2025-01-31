@@ -13,36 +13,40 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: 'Full-Stack Developer Portfolio',
+	title: '[Your Name] - Full-Stack Developer',
 	description:
-		'Professional portfolio showcasing full-stack development expertise, from modern frontend interfaces to robust backend architectures. Built with cutting-edge technologies focusing on user experience and scalability.',
+		'Welcome to my portfolio! I am a passionate full-stack developer who bridges the gap between frontend and backend development. Specializing in creating complete web solutions, from beautiful user interfaces to robust server architectures.',
 	keywords: [
 		'Full-Stack Developer',
 		'Software Engineer',
+		'Frontend Development',
+		'Backend Development',
 		'React',
 		'Next.js',
 		'Node.js',
 		'TypeScript',
-		'Frontend Development',
-		'Backend Development',
-		'API Design',
-		'Database Architecture',
+		'Database Design',
+		'API Development',
 		'Cloud Solutions',
-		'Portfolio',
+		'DevOps',
+		'System Architecture',
+		'Web Development',
+		'[Your Name]',
 	],
-	authors: [{ name: 'Your Name' }],
-	creator: 'Your Name',
+	authors: [{ name: '[Your Name]' }],
+	creator: '[Your Name]',
 	openGraph: {
-		title: 'Full-Stack Developer Portfolio',
-		description: 'Professional portfolio showcasing comprehensive full-stack development expertise and modern web solutions.',
+		title: '[Your Name] - Full-Stack Developer Portfolio',
+		description:
+			'Passionate full-stack developer creating complete web solutions. Explore my projects and technical expertise across the entire development stack.',
 		url: 'https://your-domain.com',
-		siteName: 'Full-Stack Portfolio',
+		siteName: '[Your Name] - Portfolio',
 		images: [
 			{
 				url: '/og-image.jpg',
 				width: 1200,
 				height: 630,
-				alt: 'Full-Stack Developer Portfolio',
+				alt: '[Your Name] - Full-Stack Developer Portfolio',
 			},
 		],
 		locale: 'en_US',
@@ -50,14 +54,22 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'Full-Stack Developer Portfolio',
-		description: 'Professional portfolio showcasing comprehensive full-stack development expertise and modern web solutions.',
+		title: '[Your Name] - Full-Stack Developer',
+		description:
+			'Passionate full-stack developer creating complete web solutions. Explore my projects and technical expertise across the entire development stack.',
 		creator: '@yourusername',
 		images: ['/og-image.jpg'],
 	},
 	robots: {
 		index: true,
 		follow: true,
+		googleBot: {
+			index: true,
+			follow: true,
+			'max-video-preview': -1,
+			'max-image-preview': 'large',
+			'max-snippet': -1,
+		},
 	},
 };
 

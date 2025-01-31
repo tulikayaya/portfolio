@@ -13,15 +13,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: 'Mobile Developer Portfolio',
+	title: '[Your Name] - Mobile Developer',
 	description:
-		'Professional portfolio showcasing mobile development expertise across iOS, Android, and cross-platform technologies. Featuring app development projects, native implementations, and mobile-first solutions.',
+		'Welcome to my portfolio! I am a passionate mobile developer crafting beautiful and performant apps for iOS and Android. Specializing in native and cross-platform development, I create engaging mobile experiences that users love.',
 	keywords: [
 		'Mobile Developer',
 		'iOS Developer',
 		'Android Developer',
 		'React Native',
 		'Flutter',
+		'Swift',
+		'Kotlin',
 		'Mobile Apps',
 		'Cross-Platform Development',
 		'Native Development',
@@ -29,20 +31,21 @@ export const metadata: Metadata = {
 		'App Store',
 		'Play Store',
 		'Mobile Architecture',
+		'[Your Name]',
 	],
-	authors: [{ name: 'Your Name' }],
-	creator: 'Your Name',
+	authors: [{ name: '[Your Name]' }],
+	creator: '[Your Name]',
 	openGraph: {
-		title: 'Mobile Developer Portfolio',
-		description: 'Professional portfolio showcasing comprehensive mobile development expertise across iOS, Android, and cross-platform solutions.',
+		title: '[Your Name] - Mobile Developer Portfolio',
+		description: 'Passionate mobile developer creating exceptional iOS and Android applications. Explore my projects and app development expertise.',
 		url: 'https://your-domain.com',
-		siteName: 'Mobile Developer Portfolio',
+		siteName: '[Your Name] - Portfolio',
 		images: [
 			{
 				url: '/og-image.jpg',
 				width: 1200,
 				height: 630,
-				alt: 'Mobile Developer Portfolio',
+				alt: '[Your Name] - Mobile Developer Portfolio',
 			},
 		],
 		locale: 'en_US',
@@ -50,14 +53,21 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'Mobile Developer Portfolio',
-		description: 'Professional portfolio showcasing comprehensive mobile development expertise across iOS, Android, and cross-platform solutions.',
+		title: '[Your Name] - Mobile Developer',
+		description: 'Passionate mobile developer creating exceptional iOS and Android applications. Explore my projects and app development expertise.',
 		creator: '@yourusername',
 		images: ['/og-image.jpg'],
 	},
 	robots: {
 		index: true,
 		follow: true,
+		googleBot: {
+			index: true,
+			follow: true,
+			'max-video-preview': -1,
+			'max-image-preview': 'large',
+			'max-snippet': -1,
+		},
 	},
 };
 

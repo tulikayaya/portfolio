@@ -13,23 +13,39 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: 'John Doe | Full Stack Developer',
+	title: '[Your Name] - Software Developer',
 	description:
-		'Full Stack Developer specializing in React, Node.js, and modern web technologies. Building exceptional digital experiences with a focus on performance and accessibility.',
-	keywords: ['Full Stack Developer', 'JavaScript', 'TypeScript', 'React', 'Node.js', 'Web Development'],
-	authors: [{ name: 'John Doe' }],
-	creator: 'John Doe',
+		'Welcome to my portfolio! I am a passionate software developer with a focus on clean, minimal, and effective solutions. I believe in the power of simplicity and thoughtful design to create impactful digital experiences.',
+	keywords: [
+		'Software Developer',
+		'Clean Code',
+		'Minimal Design',
+		'Modern Development',
+		'Web Development',
+		'User Experience',
+		'Design Systems',
+		'JavaScript',
+		'TypeScript',
+		'React',
+		'Next.js',
+		'Performance',
+		'Accessibility',
+		'Minimalist Portfolio',
+		'[Your Name]',
+	],
+	authors: [{ name: '[Your Name]' }],
+	creator: '[Your Name]',
 	openGraph: {
-		title: 'John Doe | Full Stack Developer',
-		description: 'Full Stack Developer specializing in React, Node.js, and modern web technologies.',
-		url: 'https://johndoe.dev',
-		siteName: 'John Doe Portfolio',
+		title: '[Your Name] - Software Developer Portfolio',
+		description: 'Passionate software developer creating clean, minimal, and effective digital solutions. Explore my work and development philosophy.',
+		url: 'https://your-domain.com',
+		siteName: '[Your Name] - Portfolio',
 		images: [
 			{
 				url: '/og-image.jpg',
 				width: 1200,
 				height: 630,
-				alt: 'John Doe - Full Stack Developer',
+				alt: '[Your Name] - Modern Minimal Portfolio',
 			},
 		],
 		locale: 'en_US',
@@ -37,14 +53,21 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'John Doe | Full Stack Developer',
-		description: 'Full Stack Developer specializing in React, Node.js, and modern web technologies.',
-		creator: '@johndoe',
+		title: '[Your Name] - Software Developer',
+		description: 'Passionate software developer creating clean, minimal, and effective digital solutions. Explore my work and development philosophy.',
+		creator: '@yourusername',
 		images: ['/og-image.jpg'],
 	},
 	robots: {
 		index: true,
 		follow: true,
+		googleBot: {
+			index: true,
+			follow: true,
+			'max-video-preview': -1,
+			'max-image-preview': 'large',
+			'max-snippet': -1,
+		},
 	},
 };
 

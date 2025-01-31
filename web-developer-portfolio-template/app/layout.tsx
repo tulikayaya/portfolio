@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: 'Web Developer Portfolio',
+	title: '[Your Name] - Web Developer',
 	description:
-		'Professional portfolio showcasing web development expertise, featuring responsive designs, interactive user interfaces, and modern web applications. Built with Next.js, React, and cutting-edge frontend technologies.',
+		'Welcome to my portfolio! I am a passionate web developer creating modern, responsive, and user-friendly websites. Specializing in frontend technologies and interactive user interfaces, I build engaging web experiences that make an impact.',
 	keywords: [
 		'Web Developer',
 		'Frontend Developer',
@@ -29,20 +29,23 @@ export const metadata: Metadata = {
 		'UI/UX',
 		'Web Accessibility',
 		'Performance Optimization',
+		'Modern Web Development',
+		'Progressive Web Apps',
+		'[Your Name]',
 	],
-	authors: [{ name: 'Your Name' }],
-	creator: 'Your Name',
+	authors: [{ name: '[Your Name]' }],
+	creator: '[Your Name]',
 	openGraph: {
-		title: 'Web Developer Portfolio',
-		description: 'Professional portfolio showcasing modern web development expertise and responsive design solutions.',
+		title: '[Your Name] - Web Developer Portfolio',
+		description: 'Passionate web developer crafting modern and engaging digital experiences. Explore my projects and web development expertise.',
 		url: 'https://your-domain.com',
-		siteName: 'Web Developer Portfolio',
+		siteName: '[Your Name] - Portfolio',
 		images: [
 			{
 				url: '/og-image.jpg',
 				width: 1200,
 				height: 630,
-				alt: 'Web Developer Portfolio',
+				alt: '[Your Name] - Web Developer Portfolio',
 			},
 		],
 		locale: 'en_US',
@@ -50,14 +53,21 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'Web Developer Portfolio',
-		description: 'Professional portfolio showcasing modern web development expertise and responsive design solutions.',
+		title: '[Your Name] - Web Developer',
+		description: 'Passionate web developer crafting modern and engaging digital experiences. Explore my projects and web development expertise.',
 		creator: '@yourusername',
 		images: ['/og-image.jpg'],
 	},
 	robots: {
 		index: true,
 		follow: true,
+		googleBot: {
+			index: true,
+			follow: true,
+			'max-video-preview': -1,
+			'max-image-preview': 'large',
+			'max-snippet': -1,
+		},
 	},
 };
 
