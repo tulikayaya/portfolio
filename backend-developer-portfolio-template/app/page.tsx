@@ -234,7 +234,41 @@ export default function BackendPortfolio() {
 							<div className="font-mono">
 								<p className="text-green-500 mb-2">$ contact --info</p>
 								<h2 className="text-3xl font-bold mb-8 text-gray-200">Let&apos;s Connect</h2>
-								<p className="text-green-500 mb-4">$ ls ./social-links</p>
+								<p className="text-green-500 mb-2">$ location --current</p>
+								<div className="flex items-center gap-2 text-gray-300">
+									<svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+										<path
+											strokeLinecap="round"
+											strokeLinejoin="round"
+											strokeWidth={2}
+											d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+										/>
+										<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+									</svg>
+									<span>San Francisco, CA</span>
+								</div>
+								<p className="text-green-500 mt-8 mb-2">$ contact --email</p>
+								<motion.a
+									href="mailto:alex.chen@example.com"
+									whileHover={{ scale: 1.02 }}
+									className="inline-block px-6 py-3 bg-green-500/10 text-green-400 rounded-lg border border-green-500/20 hover:bg-green-500/20 transition-colors"
+								>
+									alex.chen@example.com
+								</motion.a>
+								<p className="text-green-500 mt-8 mb-2">$ cat resume.pdf</p>
+								<motion.a
+									href="/path-to-resume.pdf"
+									target="_blank"
+									rel="noopener noreferrer"
+									whileHover={{ scale: 1.02 }}
+									className="inline-flex items-center gap-2 px-6 py-3 bg-green-500/10 text-green-400 rounded-lg border border-green-500/20 hover:bg-green-500/20 transition-colors"
+								>
+									<svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+										<path d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4z" />
+									</svg>
+									<span>Download Resume</span>
+								</motion.a>
+								<p className="text-green-500 mt-8 mb-4">$ ls ./social-links</p>
 								<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
 									<motion.a
 										href="#"
@@ -273,23 +307,15 @@ export default function BackendPortfolio() {
 									>
 										<div className="p-2 bg-gray-700/50 rounded-lg group-hover:bg-gray-600/50 transition-colors">
 											<svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 24 24">
-												<path d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765 1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6 5.207 3.005-5.212 2.995z" />
+												<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
 											</svg>
 										</div>
 										<div>
-											<p className="font-semibold text-gray-200">YouTube</p>
-											<p className="text-sm text-gray-400">Tech Insights</p>
+											<p className="font-semibold text-gray-200">X</p>
+											<p className="text-sm text-gray-400">@alexchen</p>
 										</div>
 									</motion.a>
 								</div>
-								<p className="text-green-500 mt-8 mb-2">$ contact --email</p>
-								<motion.a
-									href="mailto:alex.chen@example.com"
-									whileHover={{ scale: 1.02 }}
-									className="inline-block px-6 py-3 bg-green-500/10 text-green-400 rounded-lg border border-green-500/20 hover:bg-green-500/20 transition-colors"
-								>
-									alex.chen@example.com
-								</motion.a>
 							</div>
 						</div>
 					</motion.div>
