@@ -23,18 +23,18 @@ If you want to clone only a specific portfolio template:
 git clone --no-checkout https://github.com/devportfoliotemplates/devportfoliotemplates.git
 cd devportfoliotemplates
 git sparse-checkout init --cone
-git sparse-checkout set example-portfolio
+git sparse-checkout set example-portfolio-template
 git checkout
 ```
 
-Replace `example-portfolio` with your preferred template name (`frontend-portfolio`, `backend-portfolio`, etc.).
+Replace `example-portfolio-template` with your preferred template name (`frontend-portfolio-template`, `backend-portfolio-template`, etc.).
 
 ### Option 2: Direct Download
 
 You can download a specific portfolio template as a ZIP file:
 
 1. Visit [download-directory.github.io](https://download-directory.github.io/)
-2. Paste the URL of your preferred portfolio folder (e.g., `https://github.com/devportfoliotemplates/devportfoliotemplates/tree/main/frontend-portfolio`)
+2. Paste the URL of your preferred portfolio folder (e.g., `https://github.com/devportfoliotemplates/devportfoliotemplates/tree/main/frontend-portfolio-template`)
 3. Download and extract the ZIP file
 
 ### Running the Template

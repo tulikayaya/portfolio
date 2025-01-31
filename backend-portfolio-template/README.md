@@ -2,7 +2,7 @@
 
 A sophisticated, minimalist developer portfolio template built with Next.js 15, TypeScript, and Tailwind CSS. This template is designed to effectively showcase your backend development expertise, system architecture skills, and technical projects with a focus on clean presentation and technical depth.
 
-[Demo](https://www.devportfoliotemplates.com/portfolios/backend-portfolio)
+[Demo](https://www.devportfoliotemplates.com/portfolio-templates/backend)
 
 ## Features
 

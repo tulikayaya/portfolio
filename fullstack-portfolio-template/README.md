@@ -2,7 +2,7 @@
 
 A sophisticated, comprehensive developer portfolio template built with Next.js 15, TypeScript, and Tailwind CSS. This template is designed to effectively showcase your full-stack development expertise, highlighting both frontend and backend capabilities, system architecture skills, and technical projects with a focus on clean presentation and technical depth.
 
-[Demo](https://www.devportfoliotemplates.com/portfolios/fullstack-portfolio)
+[Demo](https://www.devportfoliotemplates.com/portfolio-templates/fullstack)
 
 ## Features
 

@@ -2,7 +2,7 @@
 
 A sophisticated, mobile-focused developer portfolio template built with Next.js 15, TypeScript, and Tailwind CSS. This template is designed to effectively showcase your mobile development expertise, highlighting your iOS/Android development skills, cross-platform capabilities, and mobile-specific projects with a focus on clean presentation and technical depth.
 
-[Demo](https://www.devportfoliotemplates.com/portfolios/mobile-dev-portfolio)
+[Demo](https://www.devportfoliotemplates.com/portfolio-templates/mobile-dev)
 
 ## Features
 
