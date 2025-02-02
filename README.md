@@ -1,8 +1,19 @@
-# Dev Portfolio Templates
+# Developer Portfolio Templates
 
 A collection of modern, responsive portfolio templates built with Next.js and TailwindCSS. Perfect for developers looking to showcase their work with minimal setup.
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 🌐 **[View All Templates](https://www.devportfoliotemplates.com)**
+
+## Features
+
+- 📱 Fully responsive designs for all devices
+- 🎨 Modern and clean UI with smooth animations
+- 🚀 Built with performance in mind
+- 📝 Easy to customize and maintain
+- 🌙 Dark/Light versions
+- 🎯 SEO optimized
 
 ## Tech Stack
 
@@ -47,6 +58,8 @@ Once you have your preferred template:
 npm install
 # or
 yarn install
+# or
+pnpm install
 ```
 
 2. Run the development server:
@@ -55,6 +68,8 @@ yarn install
 npm run dev
 # or
 yarn dev
+# or
+pnpm dev
 ```
 
 3. Open [http://localhost:3000](http://localhost:3000) in your browser to see the portfolio.
@@ -63,11 +78,81 @@ yarn dev
 
 ### Personal Information
 
-- Update metadata and content in `app/layout.tsx` and `app/page.tsx`
-- Replace images and assets in the `public` directory
+1. Update metadata in `app/layout.tsx`:
+
+   - Site title
+   - Description
+   - Open Graph metadata
+   - Favicon
+
+2. Modify content in `app/page.tsx`:
+
+   - Hero section
+   - About section
+   - Projects
+   - Contact information
+
+3. Replace assets:
+   - Replace images in the `public` directory
+   - Update social media icons
+   - Modify logo if needed
 
 ### Styling
 
-- Templates use TailwindCSS for styling
-- Customize colors and theme in `tailwind.config.js`
-- Modify animations in respective component files
+1. Colors and Theme:
+
+   - Customize colors in `tailwind.config.js`
+   - Modify theme variables in `app/globals.css`
+
+2. Typography:
+
+   - Update font families in `tailwind.config.js`
+   - Modify text sizes and weights
+
+3. Layout:
+   - Adjust spacing and padding in component files
+   - Modify responsive breakpoints in `tailwind.config.js`
+
+## Troubleshooting
+
+### Common Issues
+
+1. **Build Errors**
+
+   - Ensure all dependencies are installed
+   - Clear `.next` folder and node_modules
+   - Run `npm install` again
+
+2. **Styling Issues**
+
+   - Run `npm run build` to ensure TailwindCSS classes are generated
+   - Check for conflicting styles in `globals.css`
+
+3. **Image Loading**
+   - Verify images are in the correct format (PNG, JPG, WebP)
+   - Check image paths are correct
+   - Ensure images are in the `public` directory
+
+## Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/improvement`)
+3. Make your changes
+4. Commit your changes (`git commit -am 'Add new feature'`)
+5. Push to the branch (`git push origin feature/improvement`)
+6. Create a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Support
+
+If you find these templates helpful, please consider:
+
+- Starring the repository ⭐
+- Sharing with other developers
+
+For issues and feature requests, please [create an issue](https://github.com/devportfoliotemplates/devportfoliotemplates/issues).
