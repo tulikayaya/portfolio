@@ -2,7 +2,7 @@
 
 const HeroSection = () => {
 	return (
-		<section className="relative min-h-[80vh] md:h-screen flex items-center justify-center overflow-hidden py-20 md:py-0">
+		<section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden py-16 sm:py-20">
 			<div className="absolute inset-0 z-0">
 				<div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-500/50 via-transparent to-transparent"></div>
 				<div className="absolute bottom-0 right-0 w-full h-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-500/20 via-transparent to-transparent"></div>
@@ -182,7 +182,7 @@ const HeroSection = () => {
 					</div>
 				</div>
 
-				<div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+				<div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce hidden md:block">
 					<svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 						<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
 					</svg>
