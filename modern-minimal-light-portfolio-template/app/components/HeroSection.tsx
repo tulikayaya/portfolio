@@ -29,7 +29,7 @@ export default function HeroSection() {
 					transition={{ duration: 0.8, delay: 0.3 }}
 					className="text-4xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600"
 				>
-					Hi! I'm Tulika
+					Hi! I&apos;m Tulika
 				</motion.h1>
 				<motion.p
 					initial={{ y: 50, opacity: 0 }}
