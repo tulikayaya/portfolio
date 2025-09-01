@@ -1,0 +1,19 @@
+cat > .gitignore <<'EOF'
+# Node / Next.js
+node_modules/
+.next/
+out/
+.vercel/
+*.log
+
+# Env & IDE
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+EOF

@@ -10,38 +10,46 @@ export default function HeroSection() {
 			transition={{ duration: 1 }}
 			className="h-screen flex items-center justify-center relative overflow-hidden"
 		>
-			<div className="absolute inset-0 bg-gradient-to-br from-blue-300 to-purple-400" />
-			<div className="absolute inset-0">
-				<div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.7),rgba(255,255,255,1))]" />
-			</div>
+			{/* Background video */}
+			<video
+				autoPlay
+				loop
+				muted
+				playsInline
+				className="absolute inset-0 w-full h-full object-cover z-0"
+			>
+				<source src="/portfolio-video.mp4" type="video/mp4" />
+			</video>
 
-			<div className="relative z-10 text-center">
+			{/* Text content */}
+			<div className="relative z-20 text-center">
 				<motion.h1
 					initial={{ y: 50 }}
 					animate={{ y: 0 }}
-					transition={{ duration: 0.8, delay: 0.2 }}
+					transition={{ duration: 0.8, delay: 0.3 }}
 					className="text-4xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600"
 				>
-					John Doe
+					Hi! I'm Tulika
 				</motion.h1>
 				<motion.p
 					initial={{ y: 50, opacity: 0 }}
 					animate={{ y: 0, opacity: 1 }}
-					transition={{ duration: 0.8, delay: 0.4 }}
-					className="text-lg md:text-xl text-gray-600 mb-8 px-4"
+					transition={{ duration: 0.8, delay: 0.9 }}
+					className="text-lg md:text-xl text-gray-700 mb-8 px-4"
 				>
-					Full Stack Developer & UI/UX Enthusiast
+					I build intelligent systems that turn data into decisions.
 				</motion.p>
 			</div>
 
+			{/* Bouncing arrow */}
 			<motion.div
 				initial={{ y: 50, opacity: 0 }}
 				animate={{ y: 0, opacity: 1 }}
-				transition={{ duration: 0.8, delay: 0.6 }}
-				className="absolute bottom-10 left-1/2 transform -translate-x-1/2"
+				transition={{ duration: 0.8, delay: 1.1 }}
+				className="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-20"
 			>
 				<div className="animate-bounce">
-					<svg className="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+					<svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 						<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
 					</svg>
 				</div>
