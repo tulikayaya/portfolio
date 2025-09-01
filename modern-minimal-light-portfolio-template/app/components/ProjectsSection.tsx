@@ -17,7 +17,7 @@ const projects = [
   {
     id: 2,
     title: 'BrainAI',
-    description: 'Parkinson’s Disease classifier using FastSurfer segmentations & XGBoost',
+    description: 'A GPT-4 powered medical assistant that automates 3D MRI segmentation by orchestrating FastSurfer via Docker, to extract and return 3D brain regions of interest, streamlining neuroimaging analysis for non-technical users.',
     overviewLink: 'https://github.com/tulikayaya/BrainAI',
     githubLink: 'https://github.com/tulikayaya/BrainAI',
     isPublication: false,
@@ -53,7 +53,7 @@ export default function ProjectsSection() {
 		transition={{ duration: 1.5, ease: 'easeOut' }}
         className="text-4xl md:text-5xl font-bold mb-16 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 tracking-tight"
       >
-        What I've Built
+        What I&apos;ve Built
       </motion.h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
