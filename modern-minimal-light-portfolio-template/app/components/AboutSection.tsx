@@ -56,7 +56,7 @@ export default function AboutSection() {
 								cursor
 								cursorStyle="|"
 								loop={1}
-								onTypeDone={() => setTypedDone(true)}
+								onLoopDone={() => setTypedDone(true)}
 							/>
 						) : (
 							''
