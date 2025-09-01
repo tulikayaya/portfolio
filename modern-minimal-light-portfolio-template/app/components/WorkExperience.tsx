@@ -14,7 +14,7 @@ export default function WorkExperience() {
       className="min-h-screen py-24 px-6 max-w-7xl mx-auto bg-white"
     >
       <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 tracking-tight">
-        Where I’ve Been
+        Where I&apos;ve Been
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
@@ -23,7 +23,7 @@ export default function WorkExperience() {
           <p className="text-gray-600 font-medium mb-3">Penn State University · Aug 2024 – Present</p>
           <ul className="text-gray-700 text-lg space-y-4 list-disc list-inside">
           <li>Developed end-to-end ML pipelines on large-scale 3D brain MRI data, integrating custom preprocessing and feature extraction with ensemble/boosting methods to drive high-accuracy neurological classification.</li>
-          <li>Transformed raw brain MRI scans into region-wise volumetric features and applied SHAP analysis on ML models to identify biomarkers predictive of Parkinson’s.</li>
+          <li>Transformed raw brain MRI scans into region-wise volumetric features and applied SHAP analysis on ML models to identify biomarkers predictive of Parkinson&apos;s.</li>
           </ul>
         </div>
 
