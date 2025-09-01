@@ -16,7 +16,7 @@ export default function AboutSection() {
 
 	if (inView && !startTyping) setStartTyping(true);
 
-	const paragraph = `Hey there! I'm Tulika—a software engineer at the intersection of intelligent systems, GenAI, and purposeful engineering. My work spans full-stack development, large language models, and production-grade ML pipelines, with a focus on building cloud-native, scalable solutions that matter. From deploying RAG-powered clinical assistants to engineering tools that transform unstructured data into actionable insights, I craft systems where performance meets precision. I don’t just build software—I design cognitive interfaces that think, learn, and help humans make better decisions. Because in the end, real impact isn’t just about automation—it’s about augmentation.`;
+	const paragraph = `Hey there! I&apos;m Tulika—a software engineer at the intersection of intelligent systems, GenAI, and purposeful engineering. My work spans full-stack development, large language models, and production-grade ML pipelines, with a focus on building cloud-native, scalable solutions that matter. From deploying RAG-powered clinical assistants to engineering tools that transform unstructured data into actionable insights, I craft systems where performance meets precision. I don&apos;t just build software—I design cognitive interfaces that think, learn, and help humans make better decisions. Because in the end, real impact isn&apos;t just about automation—it&apos;s about augmentation.`;
 
 	return (
 		<section id="about" className="min-h-screen py-24 px-6 max-w-7xl mx-auto bg-white" ref={ref}>
